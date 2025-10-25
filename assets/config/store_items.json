@@ -1,0 +1,51 @@
+{
+  "categories": [
+    {
+      "name": "Food & Drinks",
+      "icon": "fastfood",
+      "color": "#FF9800",
+      "items": [
+        {
+          "name": "Poor Diet (Week)",
+          "description": "Cheap junk food for the week. Health -5/week",
+          "cost": 30,
+          "health": 0,
+          "happiness": 2,
+          "energy": 5,
+          "icon": "fastfood",
+          "dietTier": "poor"
+        },
+        {
+          "name": "Basic Diet (Week)",
+          "description": "Simple balanced meals. Health neutral",
+          "cost": 75,
+          "health": 0,
+          "happiness": 5,
+          "energy": 10,
+          "icon": "lunch_dining",
+          "dietTier": "basic"
+        },
+        {
+          "name": "Good Diet (Week)",
+          "description": "Nutritious home-cooked meals. Health +3/week",
+          "cost": 150,
+          "health": 0,
+          "happiness": 10,
+          "energy": 15,
+          "icon": "restaurant",
+          "dietTier": "good"
+        },
+        {
+          "name": "Premium Diet (Week)",
+          "description": "Organic, chef-prepared meals. Health +5/week",
+          "cost": 300,
+          "health": 0,
+          "happiness": 20,
+          "energy": 20,
+          "icon": "restaurant",
+          "dietTier": "premium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "industries": [
+    {
+      "name": "Technology",
+      "icon": "computer",
+      "color": "#2196F3",
+      "companies": ["Gooble", "Macrohard", "Amazoon", "Metaverse Inc", "Nile River Tech"],
+      "positions": {
+        "entry": [
+          {"title": "Junior Developer", "salaryMin": 55000, "salaryMax": 75000, "weight": 0.10},
+          {"title": "QA Tester", "salaryMin": 45000, "salaryMax": 60000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Software Engineer", "salaryMin": 80000, "salaryMax": 120000, "weight": 0.25},
+          {"title": "DevOps Engineer", "salaryMin": 85000, "salaryMax": 125000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Senior Engineer", "salaryMin": 130000, "salaryMax": 180000, "weight": 0.20},
+          {"title": "Engineering Manager", "salaryMin": 140000, "salaryMax": 200000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "IT Support", "salaryMin": 50000, "salaryMax": 70000, "weight": 0.15},
+          {"title": "HR Coordinator", "salaryMin": 55000, "salaryMax": 75000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "CTO", "salaryMin": 250000, "salaryMax": 400000, "weight": 0.03},
+          {"title": "VP Engineering", "salaryMin": 220000, "salaryMax": 350000, "weight": 0.02}
+        ]
+      }
+    },
+    {
+      "name": "Finance",
+      "icon": "attach_money",
+      "color": "#4CAF50",
+      "companies": ["Goldman Sacks", "JP Organ", "Wells Cargo", "Bank of Americano", "Citibank Group"],
+      "positions": {
+        "entry": [
+          {"title": "Junior Analyst", "salaryMin": 60000, "salaryMax": 80000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Financial Analyst", "salaryMin": 85000, "salaryMax": 115000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Senior Analyst", "salaryMin": 120000, "salaryMax": 160000, "weight": 0.20},
+          {"title": "Portfolio Manager", "salaryMin": 140000, "salaryMax": 200000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "Compliance Officer", "salaryMin": 65000, "salaryMax": 90000, "weight": 0.15},
+          {"title": "HR Specialist", "salaryMin": 60000, "salaryMax": 80000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "CFO", "salaryMin": 280000, "salaryMax": 450000, "weight": 0.03},
+          {"title": "VP Finance", "salaryMin": 240000, "salaryMax": 380000, "weight": 0.02}
+        ]
+      }
+    },
+    {
+      "name": "Healthcare",
+      "icon": "favorite",
+      "color": "#F44336",
+      "companies": ["St. Mary's Hospital", "General Medical Center", "HealthFirst Clinic", "MediCare Plus", "Wellness Hospital"],
+      "positions": {
+        "entry": [
+          {"title": "Medical Assistant", "salaryMin": 35000, "salaryMax": 45000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Registered Nurse", "salaryMin": 65000, "salaryMax": 90000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Physician", "salaryMin": 180000, "salaryMax": 280000, "weight": 0.20},
+          {"title": "Department Head", "salaryMin": 200000, "salaryMax": 300000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "Medical Records", "salaryMin": 40000, "salaryMax": 55000, "weight": 0.15},
+          {"title": "HR Administrator", "salaryMin": 50000, "salaryMax": 70000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "Chief Medical Officer", "salaryMin": 350000, "salaryMax": 500000, "weight": 0.03},
+          {"title": "Hospital Director", "salaryMin": 300000, "salaryMax": 450000, "weight": 0.02}
+        ]
+      }
+    },
+    {
+      "name": "Retail",
+      "icon": "shopping_bag",
+      "color": "#FF9800",
+      "companies": ["Wal-Mart", "Tarjay", "BestBuy Electronics", "Whole Wallets", "Costco Wholesale"],
+      "positions": {
+        "entry": [
+          {"title": "Sales Associate", "salaryMin": 25000, "salaryMax": 35000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Department Manager", "salaryMin": 45000, "salaryMax": 65000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Store Manager", "salaryMin": 70000, "salaryMax": 95000, "weight": 0.20},
+          {"title": "Regional Manager", "salaryMin": 85000, "salaryMax": 120000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "Inventory Specialist", "salaryMin": 35000, "salaryMax": 50000, "weight": 0.15},
+          {"title": "HR Coordinator", "salaryMin": 40000, "salaryMax": 55000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "VP Operations", "salaryMin": 180000, "salaryMax": 280000, "weight": 0.03},
+          {"title": "Chief Retail Officer", "salaryMin": 200000, "salaryMax": 320000, "weight": 0.02}
+        ]
+      }
+    },
+    {
+      "name": "Education",
+      "icon": "school",
+      "color": "#9C27B0",
+      "companies": ["Public School District", "Private Academy", "University System", "Charter Schools Inc", "Community College"],
+      "positions": {
+        "entry": [
+          {"title": "Teaching Assistant", "salaryMin": 30000, "salaryMax": 40000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Teacher", "salaryMin": 45000, "salaryMax": 65000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Department Chair", "salaryMin": 70000, "salaryMax": 95000, "weight": 0.20},
+          {"title": "Vice Principal", "salaryMin": 80000, "salaryMax": 110000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "School Counselor", "salaryMin": 50000, "salaryMax": 70000, "weight": 0.15},
+          {"title": "Administrative Staff", "salaryMin": 40000, "salaryMax": 55000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "Principal", "salaryMin": 120000, "salaryMax": 180000, "weight": 0.03},
+          {"title": "Superintendent", "salaryMin": 150000, "salaryMax": 250000, "weight": 0.02}
+        ]
+      }
+    },
+    {
+      "name": "Food Service",
+      "icon": "restaurant",
+      "color": "#795548",
+      "companies": ["McRonald's", "Burger Queen", "Starbux Coffee", "Taco Hell", "Pizza Hut (but not)"],
+      "positions": {
+        "entry": [
+          {"title": "Crew Member", "salaryMin": 22000, "salaryMax": 28000, "weight": 0.10}
+        ],
+        "mid": [
+          {"title": "Shift Supervisor", "salaryMin": 32000, "salaryMax": 42000, "weight": 0.25}
+        ],
+        "senior": [
+          {"title": "Restaurant Manager", "salaryMin": 45000, "salaryMax": 65000, "weight": 0.20},
+          {"title": "District Manager", "salaryMin": 65000, "salaryMax": 90000, "weight": 0.15}
+        ],
+        "support": [
+          {"title": "Kitchen Staff", "salaryMin": 28000, "salaryMax": 38000, "weight": 0.15},
+          {"title": "HR Assistant", "salaryMin": 35000, "salaryMax": 48000, "weight": 0.10}
+        ],
+        "executive": [
+          {"title": "Regional Director", "salaryMin": 120000, "salaryMax": 180000, "weight": 0.03},
+          {"title": "VP Operations", "salaryMin": 150000, "salaryMax": 220000, "weight": 0.02}
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "activities": [
+    {
+      "id": "party",
+      "title": "Go to Party",
+      "icon": "group",
+      "color": "#2196F3",
+      "description": "Meet new people and socialize",
+      "energyCost": 15,
+      "moneyCost": 50,
+      "effects": {
+        "energy": -15,
+        "money": -50,
+        "happiness": 15
+      },
+      "meetChance": 0.8,
+      "meetTypes": [
+        {"type": "acquaintance", "probability": 0.7, "strength": 10},
+        {"type": "friend", "probability": 0.3, "strength": 15}
+      ],
+      "message": "You went to a party and had fun."
+    },
+    {
+      "id": "coffee_shop",
+      "title": "Coffee Shop",
+      "icon": "coffee",
+      "color": "#795548",
+      "description": "Relax and potentially meet someone",
+      "energyCost": 10,
+      "moneyCost": 20,
+      "effects": {
+        "energy": -10,
+        "money": -20,
+        "happiness": 10
+      },
+      "meetChance": 0.3,
+      "meetTypes": [
+        {"type": "acquaintance", "probability": 1.0, "strength": 5}
+      ],
+      "message": "You visited a coffee shop."
+    },
+    {
+      "id": "local_bar",
+      "title": "Local Bar",
+      "icon": "local_bar",
+      "color": "#FFC107",
+      "description": "Socialize in the evening",
+      "energyCost": 20,
+      "moneyCost": 30,
+      "effects": {
+        "energy": -20,
+        "money": -30,
+        "happiness": 15
+      },
+      "meetChance": 0.5,
+      "meetTypes": [
+        {"type": "acquaintance", "probability": 0.7, "strength": 8},
+        {"type": "friend", "probability": 0.3, "strength": 12}
+      ],
+      "message": "You spent time at a local bar."
+    }
+  ],
+  "hangoutCost": {
+    "energy": 10,
+    "strengthGain": 5,
+    "happinessGain": 5
+  }
+}

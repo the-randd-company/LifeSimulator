@@ -1,0 +1,34 @@
+{
+  "activities": [
+    {
+      "id": "study",
+      "title": "Study",
+      "icon": "school",
+      "color": "#2196F3",
+      "description": "Increase your education level (+10)",
+      "energyCost": 40,
+      "moneyCost": 0,
+      "effects": {
+        "education": 10,
+        "energy": -40,
+        "happiness": -10
+      },
+      "message": "You spent the week studying. Education increased!"
+    },
+    {
+      "id": "exercise",
+      "title": "Exercise",
+      "icon": "fitness_center",
+      "color": "#4CAF50",
+      "description": "Improve your health (+20)",
+      "energyCost": 60,
+      "moneyCost": 0,
+      "effects": {
+        "health": 20,
+        "energy": -60,
+        "happiness": 10
+      },
+      "message": "You exercised this week. Health improved!"
+    }
+  ]
+}

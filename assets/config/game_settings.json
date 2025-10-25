@@ -1,0 +1,44 @@
+{
+  "startingAge": 18,
+  "retirementAge": 80,
+  "startingMoney": 1000,
+  "startingStats": {
+    "health": 100,
+    "energy": 100,
+    "happiness": 50,
+    "education": 0
+  },
+  "weeklyRecovery": {
+    "health": 10,
+    "energy": 40,
+    "happiness": 15
+  },
+  "deathConditions": {
+    "minHealth": 0,
+    "minHappiness": 0,
+    "maxDebt": -10000
+  },
+  "consequences": {
+    "lowHappiness": {
+      "threshold": 20,
+      "healthPenalty": -10,
+      "message": "You're feeling very unhappy, which is affecting your health."
+    },
+    "lowHealth": {
+      "threshold": 30,
+      "energyPenalty": -15,
+      "message": "Your poor health is draining your energy."
+    },
+    "lowEnergy": {
+      "threshold": 20,
+      "happinessPenalty": -10,
+      "message": "You're constantly tired and it's making you unhappy."
+    },
+    "inDebt": {
+      "threshold": 0,
+      "happinessPenalty": -10,
+      "message": "Being in debt is making you unhappy."
+    }
+  },
+  "randomEventChance": 0.3
+}

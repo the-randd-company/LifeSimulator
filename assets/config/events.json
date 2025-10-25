@@ -1,0 +1,103 @@
+{
+  "events": [
+    {
+      "id": "cold",
+      "name": "Cold",
+      "probability": 0.1,
+      "message": "You caught a cold!",
+      "effects": {
+        "health": -10,
+        "energy": -20
+      }
+    },
+    {
+      "id": "gift",
+      "name": "Gift",
+      "probability": 0.05,
+      "message": "You received a gift of $500 from a relative!",
+      "effects": {
+        "money": 500
+      }
+    },
+    {
+      "id": "found_money",
+      "name": "Found Money",
+      "probability": 0.08,
+      "message": "You found $100 on the street!",
+      "effects": {
+        "money": 100
+      }
+    },
+    {
+      "id": "accident",
+      "name": "Accident",
+      "probability": 0.03,
+      "message": "You had a minor accident and had to pay medical bills.",
+      "effects": {
+        "health": -30,
+        "money": -500
+      }
+    },
+    {
+      "id": "mood_boost",
+      "name": "Mood Boost",
+      "probability": 0.15,
+      "message": "You're having a great day for no particular reason!",
+      "effects": {
+        "happiness": 20
+      }
+    },
+    {
+      "id": "layoff",
+      "name": "Layoff",
+      "probability": 0.02,
+      "message": "You were laid off from your job.",
+      "requiresJob": true,
+      "effects": {
+        "happiness": -15,
+        "removeJob": true
+      }
+    },
+    {
+      "id": "surprise_bill",
+      "name": "Surprise Bill",
+      "probability": 0.1,
+      "message": "You received an unexpected bill for $200.",
+      "effects": {
+        "money": -200
+      }
+    },
+    {
+      "id": "charity",
+      "name": "Charity",
+      "probability": 0.05,
+      "message": "You donated $50 to charity and feel good about it.",
+      "effects": {
+        "money": -50,
+        "happiness": 10
+      }
+    },
+    {
+      "id": "bad_food",
+      "name": "Bad Food",
+      "probability": 0.12,
+      "message": "You ate something that didn't agree with you.",
+      "effects": {
+        "health": -5
+      }
+    },
+    {
+      "id": "new_friend",
+      "name": "New Friend",
+      "probability": 0.08,
+      "message": "You made a new friend!",
+      "effects": {
+        "happiness": 10,
+        "addRelationship": {
+          "type": "friend",
+          "strength": 15
+        }
+      }
+    }
+  ]
+}
